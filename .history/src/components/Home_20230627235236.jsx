@@ -12,11 +12,13 @@ const Home = () => {
 
 
 
-          {/* <section id="header" className="d-flex align-item-center"> */}
-            <div className=" container">
-              <div className="row">
-                <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                  <h1>
+            <section id = "header" className="d-flex align-item-center">
+            <div className="container-fluid nav_bg">
+                <div className="row">
+                    <div className="col-10 mx-auto">
+                        <div className="row">
+                        <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column" >
+                                <h1>
                     Grow your business with{" "}
                     <strong className="brand-name">Test Amplify</strong>
                   </h1>
@@ -38,7 +40,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          {/* </section> */}
+          </div>
   
 
 
@@ -179,8 +181,12 @@ Stop wasting your dev team's time on testing. A CarbonQA team immediately drives
 
 
 
-
+</se
+        </div>
+        
         </>
+
+
     );
 };
 

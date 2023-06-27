@@ -7,13 +7,11 @@ import { Client } from "../components/Client";
 const Home = () => {
     return (
         <>
-    
-{/* No touch */}
-
-
-
-          {/* <section id="header" className="d-flex align-item-center"> */}
-            <div className=" container">
+           <div className="container">
+      <div className="row">
+        <div>
+          <section id="header" className="d-flex align-item-center">
+            <div className="container-fluid nav_bg">
               <div className="row">
                 <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>
@@ -34,16 +32,43 @@ const Home = () => {
                 </div>
 
                 <div className="col-lg-6 order-1 order-lg-2 header-img d-flex justify-content-center align-items-center">
-                  <img src={web} className=" img-fluid animated" alt="homeimg" />
+                  <img src={web} className="img-fluid animated" alt="homeimg" />
                 </div>
               </div>
             </div>
-          {/* </section> */}
-  
+          </section>
+        </div>
+      </div>
+    </div>
 
 
 
-  
+    {/* Testing */}
+
+    <div className="container-fluid mt-5">
+                    <div className="row">
+                        <div className="col-10 mx-auto">
+                            <div className="row gx-4">
+                                <div className="banner">
+                                    <div className="banner-content">
+                                        <h1 className="text-center">Ready to unlock your team's full potential?</h1>
+                                        <p className="text-center">Discover the best products and services.</p>
+                                        <div className="my-3 d-flex justify-content-center">
+                                            <NavLink to="/contact" className="btn-get-started">
+                                                Reach Out to Us
+                                            </NavLink>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+    {/* Testing */}
 
     
             {/* <div className="container">

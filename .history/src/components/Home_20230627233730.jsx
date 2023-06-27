@@ -12,9 +12,9 @@ const Home = () => {
 
 
 
-          {/* <section id="header" className="d-flex align-item-center"> */}
-            <div className=" container">
-              <div className="row">
+          <section id="header" className="d-flex align-item-center">
+            <div className=" container ">
+              <div className="row ">
                 <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>
                     Grow your business with{" "}
@@ -38,7 +38,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          {/* </section> */}
+          </section>
   
 
 

@@ -13,7 +13,7 @@ const Home = () => {
 
 
           {/* <section id="header" className="d-flex align-item-center"> */}
-            <div className=" container">
+          <div className="page-land container mt-4" style={{ height: "60vw" }}>
               <div className="row">
                 <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>

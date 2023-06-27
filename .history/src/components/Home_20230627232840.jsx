@@ -13,7 +13,7 @@ const Home = () => {
 
 
           {/* <section id="header" className="d-flex align-item-center"> */}
-            <div className=" container">
+          <div className="page-land container mt-4" style={{ height: "40vw" }}>
               <div className="row">
                 <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>
@@ -33,7 +33,7 @@ const Home = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-6 order-1 order-lg-2 header-img d-flex justify-content-center align-items-center">
+                <div className="col-lg-6 order-1 order-lg-2 header-img d-flex justify-content-center align-items-center animation">
                   <img src={web} className=" img-fluid animated" alt="homeimg" />
                 </div>
               </div>

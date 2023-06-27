@@ -11,9 +11,10 @@ const Home = () => {
 {/* No touch */}
 
 
-
+      <div className="container">
+      <div className="row">
           {/* <section id="header" className="d-flex align-item-center"> */}
-            <div className=" container">
+            <div className=" container-fluid-mb-5">
               <div className="row">
                 <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>
@@ -37,9 +38,10 @@ const Home = () => {
                   <img src={web} className=" img-fluid animated" alt="homeimg" />
                 </div>
               </div>
-            </div>
-          {/* </section> */}
-  
+            {/* </div> */}
+          </section>
+        </div>
+    </div>
 
 
 

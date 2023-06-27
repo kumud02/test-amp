@@ -7,13 +7,39 @@ import { Client } from "../components/Client";
 const Home = () => {
     return (
         <>
-    
+        <div className="container">
+      <div className="row">
+        <div className="col-lg-6">
+        {/* d-flex flex-column justify-content-center align-items-center h-100 */}
+          <div className="d-flex flex-column justify-content-center align-items-center h-100">
+          <h1>
+                    Grow your business with
+                    <strong className="brand-name">Test Amplify</strong>
+                  </h1>
+                  <NavLink to="/how-it-works" className="btn-get-started">Get Started </NavLink>
+
+                  <h2 className="my-3">
+                    <br />
+                    Unlock Efficiency and Boost Productivity with Our Automation Solutions!
+                  </h2>
+          </div>
+        </div>
+        <div className="col-lg-6">
+          <div className="col-lg-6 order-1 order-lg-2 header-img d-flex justify-content-center align-items-center">
+            <img src={web} alt="Example Image" className="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
 {/* No touch */}
 
-
-
-          {/* <section id="header" className="d-flex align-item-center"> */}
-            <div className=" container">
+{/* 
+           <div className="container">
+      <div className="row">
+        <div>
+          <section id="header" className="d-flex align-item-center">
+            <div className=" container-fluid-mb-5">
               <div className="row">
                 <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>
@@ -38,8 +64,10 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          {/* </section> */}
-  
+          </section>
+        </div>
+      </div>
+    </div> */}
 
 
 
