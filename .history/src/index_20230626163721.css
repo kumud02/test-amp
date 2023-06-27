@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.navbar {
+  background-color: #fff;
+}
+
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #565387;
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover {
+  color: #3498db !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+
+}
+
+
+
+
+/* Main Landing Page */
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color: #3498db;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover {
+  background: #3498db;
+  color: white;
+}
+
+#header-img {
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.card-img-top {
+  height: 40vh;
+  width: 100%;
+  object-fit: cover; 
+}
+
+
+.card-body .services {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover; 
+}
+
+.btn-read-more {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+    position: relative;
+    margin-top: auto;
+    
+  
+}
+
+.btn-read-more:hover {
+  background: #3498db;
+  color: white;
+  
+}
+
+.btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+
+.btn-get-started:hover {
+  background: #3498db;
+  color: white;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+/* FAQ Page */
+body{margin-top:20px;}
+.section_padding_130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.faq_area {
+    position: relative;
+    z-index: 1;
+    background-color: #f5f5ff;
+}
+
+.faq-accordian {
+    position: relative;
+    z-index: 1;
+}
+.faq-accordian .card {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1.5rem;
+}
+.faq-accordian .card:last-child {
+    margin-bottom: 0;
+}
+.faq-accordian .card .card-header {
+    background-color: #ffffff;
+    padding: 0;
+    border-bottom-color: #ebebeb;
+}
+.faq-accordian .card .card-header h6 {
+    cursor: pointer;
+    padding: 1.75rem 2rem;
+    color: #3f43fd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.faq-accordian .card .card-header h6 span {
+    font-size: 1.5rem;
+}
+.faq-accordian .card .card-header h6.collapsed {
+    color: #070a57;
+}
+.faq-accordian .card .card-header h6.collapsed span {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.faq-accordian .card .card-body {
+    padding: 1.75rem 2rem;
+}
+.faq-accordian .card .card-body p:last-child {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 575px) {
+    .support-button p {
+        font-size: 14px;
+    }
+}
+
+.support-button i {
+    color: #3f43fd;
+    font-size: 1.25rem;
+}
+@media only screen and (max-width: 575px) {
+    .support-button i {
+        font-size: 1rem;
+    }
+}
+
+.support-button a {
+    text-transform: capitalize;
+    color: #2ecc71;
+}
+
+
+
+
+/* # Foooterrrr */
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+/* #footer {
+  /* background: #3f43fd !important; */
+ */
+#footer h5{
+padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color:#ffffff;
+}
+#footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+padding: 3px 0;
+}
+#footer ul.social li a i {
+  margin-right: 5px;
+font-size:25px;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+font-size:30px;
+margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+color: black;
+}
+#footer ul.social li a:hover{
+color:black;
+}
+#footer ul.quick-links li{
+padding: 3px 0;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+padding: 3px 0;
+margin-left:5px;
+font-weight:700;
+}
+#footer ul.quick-links li a i{
+margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+
+@media (max-width:767px){
+#footer h5 {
+  padding-left: 0;
+  border-left: transparent;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+}

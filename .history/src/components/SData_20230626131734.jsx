@@ -1,0 +1,1 @@
+import web from "../img/rocket-svgrepo-com.svg"

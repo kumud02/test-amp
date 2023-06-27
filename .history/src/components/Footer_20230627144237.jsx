@@ -1,0 +1,35 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
+
+export const Footer = () => {
+    return(
+        <>
+        <section id="footer">
+		<div class="container">
+    `    <div className="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook custom-icon"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter custom-icon "></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram custom-icon"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+			</div>	
+			<div className="row">
+				<div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
+                    <img src="https://testamplify.net/wp-content/uploads/2023/02/TA_Logo_brand.png" />
+                    <p>
+                        <NavLink to="/">Privacy Policy </NavLink>
+                        | <NavLink to ="/">Terms of Use </NavLink></p>
+					<p className="h6 text-center">All right Reversed ©<NavLink  to="https://testamplify.net/" target="_blank">Test Amplify</NavLink></p>
+				</div>
+			</div>	
+		</div>
+	</section>
+        </>
+    )
+}
+
+export default Footer
