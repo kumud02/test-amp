@@ -175,6 +175,8 @@
 
 
 
+
+/* body{margin-top:20px;} */
 .section_padding_130 {
     padding-top: 130px;
     padding-bottom: 130px;
@@ -262,6 +264,7 @@
 
 
 
+/* # Foooterrrr */
 section {
   padding: 60px 0;
 }
@@ -274,7 +277,7 @@ section .section-title {
 }
 /* #footer {
   /* background: #3f43fd !important; */
-
+ */
 #footer h5{
 padding-left: 10px;
   border-left: 3px solid #eeeeee;

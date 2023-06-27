@@ -49,6 +49,7 @@
 
 
 
+/* Main Landing Page */
 #header {
   width: 100%;
   height: 80vh;
@@ -175,6 +176,8 @@
 
 
 
+/* FAQ Page */
+/* body{margin-top:20px;} */
 .section_padding_130 {
     padding-top: 130px;
     padding-bottom: 130px;
@@ -262,6 +265,7 @@
 
 
 
+/* # Foooterrrr */
 section {
   padding: 60px 0;
 }
@@ -274,7 +278,7 @@ section .section-title {
 }
 /* #footer {
   /* background: #3f43fd !important; */
-
+ */
 #footer h5{
 padding-left: 10px;
   border-left: 3px solid #eeeeee;
@@ -679,7 +683,9 @@ color: #ff3636;
 
 
 
+} */ 
 
+/* How it works part 2 */
 
 :root{
   --color1: #2E3C47;
@@ -729,6 +735,7 @@ color: #ff3636;
   font-weight: 400;
   padding: 3px 20px 2px;
   border-radius: 100px;
+  /* border: 5px solid var(--color1); */
   transform: translateY(-50%);
   position: absolute;
   top: 50%;
@@ -821,6 +828,7 @@ color: #ff3636;
 }
 
 
+/* FAQQQQ */
 a:hover,a:focus{
     text-decoration: none;
     outline: none;

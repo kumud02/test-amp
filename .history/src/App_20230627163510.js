@@ -23,7 +23,7 @@ function App() {
   return (
       <Fragment>
         <ScrollToTop />
-                  <Navbar />
+                  <Navbar /
 
         <Routes>
         <Route exact path = "/" element={<Home/>} />
