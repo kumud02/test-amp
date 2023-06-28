@@ -5,7 +5,10 @@ import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <>
+    <div className="container">
+      <div className="row">
 
+   
       <section id="header" className="d-flex align-item-center">
         <div className="container-fluid nav_bg">
           <div className="row">
@@ -39,7 +42,6 @@ const Home = () => {
           </div>
         </div>
       </section>
- 
 
       <div className="container mt-4">
         <div className="row mt-4">

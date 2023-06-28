@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <>
 
+   
       <section id="header" className="d-flex align-item-center">
         <div className="container-fluid nav_bg">
           <div className="row">

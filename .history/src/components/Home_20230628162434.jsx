@@ -39,6 +39,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      </div>
  
 
       <div className="container mt-4">
