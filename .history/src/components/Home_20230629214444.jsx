@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 const Home = () => {
   return (
     <>
-    <div className="main-section">
+    <div className="container main-section">
       {<Navbar />}
 
       <section id="header" className="d-flex align-item-center">

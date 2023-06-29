@@ -6,8 +6,10 @@ import Navbar from "./Navbar";
 const Home = () => {
   return (
     <>
-    <div className="main-section">
+    <div className="container main-section">
+      <div className="row">
       {<Navbar />}
+      </div>
 
       <section id="header" className="d-flex align-item-center">
         <div className="container-fluid nav_bg">
