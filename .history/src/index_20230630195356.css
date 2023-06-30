@@ -170,8 +170,8 @@
     align-items: center;
   }
   .logo-img {
-    width: 100%; 
-    height: 100px;
+    width: 80%; 
+    height: 10vh;
   }
   
 }

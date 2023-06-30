@@ -144,12 +144,6 @@
     font-size: 1.5rem !important;
   
   }
-  .main-section {
-    height: auto;
-    background-size: cover;
-    
-  }
-  
   .menu_active {
     font-weight: bold;
     border-bottom: none;
@@ -171,7 +165,7 @@
   }
   .logo-img {
     width: 100%; 
-    height: 100px;
+    height: 10vh;
   }
   
 }

@@ -145,8 +145,11 @@
   
   }
   .main-section {
+    background-image: url('img/home_back.png');
     height: auto;
     background-size: cover;
+    background-position: center;
+    position: relative;
     
   }
   
@@ -171,7 +174,7 @@
   }
   .logo-img {
     width: 100%; 
-    height: 100px;
+    height: 10vh;
   }
   
 }
