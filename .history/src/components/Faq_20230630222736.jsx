@@ -101,8 +101,8 @@ const Faq = () => {
                 }}
               >
                 
-                <p className="fs-3 p-4"> Can't find your answers? <NavLink className="btn-contact" to="/contact">Contact us</NavLink></p>
-                
+                <p className="mb-0 px-2" sty>Can't find your answers?</p>
+                <NavLink to="/contact">Contact us</NavLink>
               </div>
             </div>
           </div>

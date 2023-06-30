@@ -100,9 +100,10 @@ const Faq = () => {
                   animationName: "fadeInUp"
                 }}
               >
-                
-                <p className="fs-3 p-4"> Can't find your answers? <NavLink className="btn-contact" to="/contact">Contact us</NavLink></p>
-                
+                <i class="fa-sharp fa-regular fa-face-pensive fa-bounce"></i>
+                <i class="fa-sharp fa-light fa-face-pensive custom-icon 5x"></i>
+                <p className="mb-0 px-2">Can't find your answers?</p>
+                <NavLink to="/contact">Contact us</NavLink>
               </div>
             </div>
           </div>

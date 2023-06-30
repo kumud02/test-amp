@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className="container-fluid brand">
       <div className="row">
     <nav className="navbar navbar-expand-lg navbar-light  bg-transparent ">
-      <div className="container-fluid col-10 brand">
+      <div className="container-fluid brand">
           <NavLink className="navbar-brand" to="/">
             <a href="https://testamplify.net/" rel="home">
               <img src={logo} alt="TestAmplify" className="logo-img" />

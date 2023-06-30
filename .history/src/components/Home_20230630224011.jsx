@@ -135,6 +135,67 @@ const Home = () => {
     </div>
   </section>
 
+  <div className="container-fluid brand">
+  <div className="row">
+    <div className="col-10 mx-auto">
+      <div className="row gx-4">
+        <div className="banner">
+          <div className="banner-content">
+            <h1 className="text-center">You are Ready for Test Amplify</h1>
+            <div className="my-3">
+              <div className="col-md-4">
+                <h3>You have a Problem</h3>
+                <ul className="list-unstyled">
+                  <li>
+                    <i className="fa fa-check"></i> Don't know what to Automate
+                  </li>
+                  <li>
+                    <i className="fa fa-check"></i> Don't know why to Automate
+                  </li>
+                  <li>
+                    <i className="fa fa-check"></i> Don't know how to automate
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="my-3">
+              <div className="col-md-4">
+                <h3>You have a Problem</h3>
+                <ul className="list-unstyled">
+                  <li>
+                    <i className="fa fa-check"></i> Don't know what to Automate
+                  </li>
+                  <li>
+                    <i className="fa fa-check"></i> Don't know why to Automate
+                  </li>
+                  <li>
+                    <i className="fa fa-check"></i> Don't know how to automate
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="my-3">
+              <div className="col-md-4">
+                <h3>You have a Problem</h3>
+                <ul className="list-unstyled">
+                  <li>
+                    <i className="fa fa-check"></i> Don't know what to Automate
+                  </li>
+                  <li>
+                    <i className="fa fa-check"></i> Don't know why to Automate
+                  </li>
+                  <li>
+                    <i className="fa fa-check"></i> Don't know how to automate
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   <div className="container-fluid brand">

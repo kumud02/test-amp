@@ -162,7 +162,7 @@
   height: 50%;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
  
   .logo-img {
     width: 180px; 
@@ -225,22 +225,6 @@
   text-decoration: none;
   margin-top:5px ;
 }
-
-
-.btn-contact {
-  font-weight: 500;
-  font-size: 18px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 30px;
-  /* border-radius: 50px; */
-  transition: 0.5s;
-  color: white;
-  border: 3px solid white;
-  text-decoration: none;
-  margin-top:5px ;
-}
-
 
 
 #header .btn-get-started:hover {
