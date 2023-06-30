@@ -170,8 +170,9 @@
     align-items: center;
   }
   .logo-img {
-    width: 180px; 
+    width: 80%; 
     height: 12vh;
+    align-self: flex-start;
   
   }
   
