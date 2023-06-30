@@ -21,7 +21,6 @@
 } */
 
 .navbar-nav .nav-item .nav-link.active {
-  color: #fff;
   position: relative;
   text-decoration: none;
 }
