@@ -90,7 +90,7 @@
 
   .navbar-nav .nav-item .nav-link.active::after {
     content: "";
-    position: absolute;
+    position: c;
     left: 40%;
     align-items: center;
     width: 20%;

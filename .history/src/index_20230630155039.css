@@ -94,7 +94,7 @@
     left: 40%;
     align-items: center;
     width: 20%;
-    height: 3px;
+    height: 1px;
     background-color: #0a1da3; /* Replace with your desired underline color */
     /* transform: scaleX(0); */
   }
