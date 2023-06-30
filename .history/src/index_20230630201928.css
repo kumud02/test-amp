@@ -164,7 +164,7 @@
 @media (max-width: 400px) {
   .logo-img {
     width: 80%; 
-    height: auto;
+    height: 70px;
   }
 }
 @media (max-width: 767px) {
