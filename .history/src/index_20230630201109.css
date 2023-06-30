@@ -161,12 +161,7 @@
   max-width: 50%;
   height: 50%;
 }
-@media (max-width: 400px) {
-  .logo-img {
-    width: 100%; 
-    height: 70px;
-  }
-}
+
 @media (max-width: 767px) {
   .header-img {
     max-width: 30%;
