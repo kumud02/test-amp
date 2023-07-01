@@ -11,8 +11,6 @@ const About = () => {
   return (
     <>
       <div className="container-fluid brand">
-      <div className="row">
-
         <section id="header" className="main-section d-flex align-item-center ">
           <div className="container-fluid nav_bg">
             <div className="row">
@@ -32,13 +30,14 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                
+                  <div className="col-lg-6 order-1 order-lg-2 header-img d-flex justify-content-center align-items-center">
+                    <img src={web} className="img-fluid animated" alt="homeimg" />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        </div>
       </div>
 
       <br />
